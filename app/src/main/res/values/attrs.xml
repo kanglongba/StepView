@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 步骤视图 -->
+    <declare-styleable name="ExpendStepView">
+        <attr name="StepMaxFlag" format="integer" />
+        <!-- 最大步骤 -->
+        <attr name="StepCurrFlag" format="integer" />
+        <!-- 当前步骤 -->
+        <attr name="StepSelectedBackground" format="reference" />
+        <!-- 步骤背景图 -->
+        <attr name="StepNormalBackground" format="reference" />
+        <!-- 步骤背景图 -->
+        <attr name="StepCompletedBackground" format="reference" />
+        <!-- 步骤背景图 -->
+        <attr name="StepFlagTextColor" format="color" />
+        <!-- 步骤标记数字的颜色 -->
+        <attr name="StepTextNormalColor" format="color" />
+        <!-- 步骤文字的正常颜色 -->
+        <attr name="StepTextTransferColor" format="color" />
+        <!-- 步骤文字的变化颜色 -->
+        <attr name="StepTitleArray" format="string" />
+        <!-- 步骤标题 -->
+    </declare-styleable>
+</resources>
